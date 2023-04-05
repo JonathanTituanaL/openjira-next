@@ -1,7 +1,7 @@
 import { AppBar, IconButton, Toolbar, Typography } from '@mui/material'
 
 import MenuOutlinedIcon from '@mui/icons-material/MenuOutlined';
-const Navbar = () => {
+export const Navbar = () => {
   return (
     <AppBar
         position='sticky'
@@ -18,5 +18,3 @@ const Navbar = () => {
     </AppBar>
   )
 }
-
-export default Navbar
